@@ -1,0 +1,39 @@
+{
+  "name": "method",
+  "version": "0.0.0",
+  "description": "method",
+  "private": true,
+  "main": "index.js",
+  "bin": {
+    "method": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/mongodb-model/method.git"
+  },
+  "keywords": [
+    "method",
+    "transform",
+    "duplex",
+    "stream",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/mongodb-model/method/issues"
+  },
+  "homepage": "https://gitlab.com/mongodb-model/method#readme",
+  "dependencies": {
+    "app": "file:../app",
+    "db-callback": "file:../db-callback",
+    "db-query": "file:../db-query",
+    "db-query-validator": "file:../db-query-validator"
+  }
+}
