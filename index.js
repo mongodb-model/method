@@ -20,9 +20,9 @@ const {inspect} = require('util');
 // const MongoTransform = require('../../../');
 const MongoTransform = require('@mongodb-model/app');
 const native  = require('./lib');
-const Callback = require('@mongodb-model/db-callback');
-const CallbackQuery = require('@mongodb-model/db-query');
-const CallbackQueryValidator = require('@mongodb-model/db-query-validator');
+//const Callback = require('@mongodb-model/db-callback');
+//const CallbackQuery = require('@mongodb-model/db-query');
+//const CallbackQueryValidator = require('@mongodb-model/db-query-validator');
 
 class Method extends require("./base") {
   constructor(options = {}) {
