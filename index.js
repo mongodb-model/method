@@ -17,8 +17,8 @@
 
 const { createReadStream, createWriteStream, promises } = require("fs");
 const {inspect} = require('util');
-// const MongoTransform = require('../../../');
-// const MongoTransform = require('@mongodb-model/model');
+// const MongoTransform = require('./');
+const MongoTransform = require('@mongodb-model/base-model');
 const native  = require('./lib');
 const Callback = require('@mongodb-model/db-callback');
 const CallbackQuery = require('@mongodb-model/db-query');

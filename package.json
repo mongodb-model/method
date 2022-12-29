@@ -30,9 +30,6 @@
   },
   "homepage": "https://github.com/mongodb-model/method#readme",
   "dependencies": {
-    "@mongodb-model/db-callback": "file:../db-callback",
-    "@mongodb-model/db-query": "file:../db-query",
-    "@mongodb-model/db-query-validator": "file:../db-query-validator",
     "dotenv": "16.0.3",
     "mongodb": "4.11.0",
     "vitest": "0.25.1"
